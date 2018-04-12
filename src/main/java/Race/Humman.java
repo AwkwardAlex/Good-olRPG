@@ -1,29 +1,27 @@
 package Race;
 
-import AbstractRace.AbstractElf;
+import AbstractRace.AbstractHumman;
 import AbstractRace.AbstractRaceImpl;
-import Hero.Elf.Gunslinger;
 
-public class Elf extends AbstractElf implements AbstractRaceImpl{
+/**
+ * Created by Andrii Shulgin on 12.04.2018.
+ */
+public class Humman extends AbstractHumman implements AbstractRaceImpl {
 
     @Override
     public void createHero() {
 
     }
 
-    @Override
     public void attack() {
 
     }
 
-    @Override
     public void life() {
 
     }
 
-    @Override
     public void toGo() {
 
     }
-
 }

@@ -1,8 +1,14 @@
-import Race.Elf;
+import Hero.Elf.Gunslinger;
+import Hero.Elf.Mage;
+import Hero.Humman.Monk;
 
 public class App {
     public static void main(String[] args) {
-        Elf elf = new Elf();
-        elf.attack();
+        Gunslinger gunslinger = new Gunslinger();
+        gunslinger.createHero();
+        Mage mage = new Mage();
+        mage.createHero();
+        Monk monk = new Monk();
+        monk.createHero();
     }
 }
