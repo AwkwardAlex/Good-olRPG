@@ -1,8 +1,7 @@
-import Race.Elf;
+import Hero.Elf.Gunslinger;
 
 public class App {
     public static void main(String[] args) {
-        Elf elf = new Elf();
-        elf.attack();
+        Gunslinger.print();
     }
 }

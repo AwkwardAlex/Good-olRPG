@@ -7,21 +7,23 @@ import lombok.Setter;
 @Setter
 abstract class AbstractRace {
 
-    private String name;
-    private int Charisma;
-    private int Stamina;
-    private int Intellect;
-    private int Agility;
-    private int Concentration;
+    private String nameRace;
+    private int charisma;
+    private int stamina;
+    private int intellect;
+    private int agility;
+    private int concentration;
     private int rage;
     private int mana;
 
-    public AbstractRace(String name, int charisma, int stamina, int intellect, int agility, int concentration) {
-        this.name = name;
-        Charisma = charisma;
-        Stamina = stamina;
-        Intellect = intellect;
-        Agility = agility;
-        Concentration = concentration;
+    public AbstractRace(String nameRace, int charisma, int stamina, int intellect, int agility, int concentration, int rage, int mana) {
+        this.nameRace = nameRace;
+        this.charisma = charisma;
+        this.stamina = stamina;
+        this.intellect = intellect;
+        this.agility = agility;
+        this.concentration = concentration;
+        this.rage = rage;
+        this.mana = mana;
     }
 }
