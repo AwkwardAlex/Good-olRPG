@@ -9,18 +9,22 @@ import AbstractRace.AbstractRaceImpl;
 public class Humman extends AbstractHumman implements AbstractRaceImpl {
 
     @Override
-    public void createHero() {
+    public Humman createHero() {
 
+        return null;
     }
 
+    @Override
     public void attack() {
 
     }
 
+    @Override
     public void life() {
 
     }
 
+    @Override
     public void toGo() {
 
     }

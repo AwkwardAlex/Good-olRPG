@@ -23,12 +23,13 @@ public class Monk extends Humman {
     }
 
     @Override
-    public void createHero() {
+    public Monk createHero() {
         Monk monk = new Monk();
         monk.setRage(10);
         monk.setHealth(100);
         monk.setNameHero("Monk");
         monk.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
         System.out.println("Your hero is created. His name "+"\nname: "+monk.getNameHero()+"\nrace: "+monk.getNameRace()+"\nmana: "+monk.getMana()+"\nyour health: "+monk.getHealth());
+    return monk;
     }
 }

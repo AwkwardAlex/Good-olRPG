@@ -24,12 +24,13 @@ public class Gunslinger extends Elf {
     }
 
     @Override
-    public void createHero() {
+    public Gunslinger createHero() {
         Gunslinger gunslinger = new Gunslinger();
         gunslinger.setRage(10);
         gunslinger.setHealth(100);
         gunslinger.setNameHero("Gunslinger");
         gunslinger.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
         System.out.println("Your hero is created. His name "+"\nname: "+gunslinger.getNameHero()+"\nrace: "+gunslinger.getNameRace()+"\nmana: "+gunslinger.getMana()+"\nyour health: "+gunslinger.getHealth());
+    return gunslinger;
     }
 }

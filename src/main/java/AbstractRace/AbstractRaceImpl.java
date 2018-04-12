@@ -1,7 +1,7 @@
 package AbstractRace;
 
 public interface AbstractRaceImpl {
-    void createHero();
+    Object createHero();
     void attack();
     void life();
     void toGo();
