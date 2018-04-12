@@ -8,6 +8,7 @@ import lombok.Setter;
 abstract class AbstractRace {
 
     private String nameRace;
+    private String nameHero;
     private int charisma;
     private int stamina;
     private int intellect;
@@ -15,9 +16,11 @@ abstract class AbstractRace {
     private int concentration;
     private int rage;
     private int mana;
+    private int health;
 
-    AbstractRace(String nameRace, int charisma, int stamina, int intellect, int agility, int concentration, int rage, int mana) {
+    AbstractRace(String nameRace, String nameHero, int charisma, int stamina, int intellect, int agility, int concentration, int rage, int mana, int health) {
         this.nameRace = nameRace;
+        this.nameHero = nameHero;
         this.charisma = charisma;
         this.stamina = stamina;
         this.intellect = intellect;
@@ -25,5 +28,6 @@ abstract class AbstractRace {
         this.concentration = concentration;
         this.rage = rage;
         this.mana = mana;
+        this.health = health;
     }
 }
