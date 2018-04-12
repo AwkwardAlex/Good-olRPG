@@ -28,6 +28,7 @@ public class Mage extends Elf{
         mage.setRage(10);
         mage.setHealth(100);
         mage.setNameHero("mage");
+        mage.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
         System.out.println("Your hero is created. His name "+"\nname: "+mage.getNameHero()+"\nrace: "+mage.getNameRace()+"\nmana: "+mage.getMana()+"\nyour health: "+mage.getHealth());
     }
     
