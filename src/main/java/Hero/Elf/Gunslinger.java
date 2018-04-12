@@ -1,13 +1,14 @@
 package Hero.Elf;
 
-import Race.Elf;
+import AbstractRace.AbstractElf;
+import AbstractRace.AbstractRaceImpl;
 import lombok.Getter;
 import lombok.Setter;
 
 /**
  * Created by Andrii Shulgin on 12.04.2018.
  */
-public class Gunslinger extends Elf {
+public class Gunslinger extends AbstractElf implements AbstractRaceImpl {
 
     @Getter
     @Setter
@@ -15,19 +16,35 @@ public class Gunslinger extends Elf {
 
     @Override
     public void setMana(int mana) {
-        super.setMana(90);
+        super.setMana(mana);
     }
 
     @Override
     public void setRage(int rage) {
-        super.setRage(10);
+        super.setRage(rage);
     }
 
-    public static void print() {
+    @Override
+    public void createHero() {
         Gunslinger gunslinger = new Gunslinger();
-        System.out.println(gunslinger.getCharisma());
-        System.out.println(gunslinger.getMana());
-        System.out.println(gunslinger.getConcentration());
+        gunslinger.setRage(10);
+        gunslinger.setMana(90);
         System.out.println(gunslinger.getRage());
+        System.out.println(gunslinger.getMana());
+    }
+
+    @Override
+    public void attack() {
+
+    }
+
+    @Override
+    public void life() {
+
+    }
+
+    @Override
+    public void toGo() {
+
     }
 }

@@ -16,7 +16,7 @@ abstract class AbstractRace {
     private int rage;
     private int mana;
 
-    public AbstractRace(String nameRace, int charisma, int stamina, int intellect, int agility, int concentration, int rage, int mana) {
+    AbstractRace(String nameRace, int charisma, int stamina, int intellect, int agility, int concentration, int rage, int mana) {
         this.nameRace = nameRace;
         this.charisma = charisma;
         this.stamina = stamina;

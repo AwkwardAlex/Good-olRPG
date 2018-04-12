@@ -8,6 +8,11 @@ import AbstractRace.AbstractRaceImpl;
  */
 public class Humman extends AbstractHumman implements AbstractRaceImpl {
 
+    @Override
+    public void createHero() {
+
+    }
+
     public void attack() {
 
     }

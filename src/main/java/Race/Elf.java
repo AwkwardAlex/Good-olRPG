@@ -2,18 +2,9 @@ package Race;
 
 import AbstractRace.AbstractElf;
 import AbstractRace.AbstractRaceImpl;
+import Hero.Elf.Gunslinger;
 
-public class Elf extends AbstractElf implements AbstractRaceImpl{
+public class Elf {
 
-    public void attack() {
 
-    }
-
-    public void life() {
-
-    }
-
-    public void toGo() {
-
-    }
 }
