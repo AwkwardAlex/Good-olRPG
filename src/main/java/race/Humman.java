@@ -1,7 +1,7 @@
 package race;
 
-import abstractRace.AbstractHumman;
-import abstractRace.AbstractRaceImpl;
+import race.abstraction.AbstractHumman;
+import race.abstraction.implement.AbstractRaceImpl;
 
 /**
  * Created by Andrii Shulgin on 12.04.2018.
