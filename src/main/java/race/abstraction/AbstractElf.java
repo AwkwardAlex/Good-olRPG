@@ -1,8 +1,8 @@
-package abstractRace;
+package race.abstraction;
 
 public abstract class AbstractElf extends AbstractRace {
 
     public AbstractElf() {
-        super("Elf", null, 15, 10, 25, 22, 18, 0, 0, 0);
+        super("elf", null, 15, 10, 25, 22, 18, 0, 0, 0);
     }
 }

@@ -1,11 +1,11 @@
 package util;
 
-import hero.Dwarf.Mechanist;
-import hero.Dwarf.Warrior;
-import hero.Elf.Gunslinger;
-import hero.Elf.Mage;
-import hero.Humman.Monk;
-import hero.Humman.Paladin;
+import hero.dwarf.Mechanist;
+import hero.dwarf.Warrior;
+import hero.elf.Gunslinger;
+import hero.elf.Mage;
+import hero.humman.Monk;
+import hero.humman.Paladin;
 import lombok.Getter;
 
 import java.util.Scanner;

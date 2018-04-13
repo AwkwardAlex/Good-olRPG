@@ -1,4 +1,4 @@
-package abstractRace;
+package race.abstraction;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -42,6 +42,6 @@ abstract class AbstractRace {
 
     @Override
     public String toString() {
-        return "abstractRace{" + "nameRace='" + nameRace + '\'' + ", nameHero='" + nameHero + '\'' + '}';
+        return "race.abstraction{" + "nameRace='" + nameRace + '\'' + ", nameHero='" + nameHero + '\'' + '}';
     }
 }

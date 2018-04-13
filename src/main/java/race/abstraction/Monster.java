@@ -1,4 +1,4 @@
-package abstractRace;
+package race.abstraction;
 
 public abstract class Monster extends AbstractRace {
 
