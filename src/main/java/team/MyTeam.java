@@ -1,6 +1,6 @@
-package Team;
+package team;
 
-import Util.InputData;
+import util.InputData;
 
 import java.util.ArrayList;
 import java.util.List;

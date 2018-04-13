@@ -1,6 +1,6 @@
-package Hero.Dwarf;
+package hero.Dwarf;
 
-import Race.Dwarf;
+import race.Dwarf;
 
 /**
  * Created by Andrii Shulgin on 12.04.2018.

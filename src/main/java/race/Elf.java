@@ -1,8 +1,7 @@
-package Race;
+package race;
 
-import AbstractRace.AbstractElf;
-import AbstractRace.AbstractRaceImpl;
-import Hero.Elf.Gunslinger;
+import abstractRace.AbstractElf;
+import abstractRace.AbstractRaceImpl;
 
 public class Elf extends AbstractElf implements AbstractRaceImpl {
 
