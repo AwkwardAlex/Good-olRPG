@@ -32,4 +32,9 @@ public class Mechanist extends Dwarf {
         System.out.println("Your hero is created. His name " + "\nname: " + mechanist.getNameHero() + "\nrace: " + mechanist.getNameRace() + "\nmana: " + mechanist.getMana() + "\nyour health: " + mechanist.getHealth());
         return mechanist;
     }
+
+    @Override
+    public void toGo() {
+
+    }
 }
