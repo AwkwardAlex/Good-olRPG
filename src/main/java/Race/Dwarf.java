@@ -27,6 +27,4 @@ public class Dwarf extends AbstractDwarf implements AbstractRaceImpl {
     public void toGo() {
 
     }
-
-
 }

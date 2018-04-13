@@ -7,7 +7,6 @@ import Race.Elf;
  */
 public class Gunslinger extends Elf {
 
-
     @Override
     public void setMana(int mana) {
         super.setMana(mana);
@@ -29,8 +28,8 @@ public class Gunslinger extends Elf {
         gunslinger.setRage(10);
         gunslinger.setHealth(100);
         gunslinger.setNameHero("Gunslinger");
-        gunslinger.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
-        System.out.println("Your hero is created. His name "+"\nname: "+gunslinger.getNameHero()+"\nrace: "+gunslinger.getNameRace()+"\nmana: "+gunslinger.getMana()+"\nyour health: "+gunslinger.getHealth());
-    return gunslinger;
+        gunslinger.setMana((getAgility() + getCharisma() + getConcentration() + getIntellect() + getStamina()));
+        System.out.println("Your hero is created. His name " + "\nname: " + gunslinger.getNameHero() + "\nrace: " + gunslinger.getNameRace() + "\nmana: " + gunslinger.getMana() + "\nyour health: " + gunslinger.getHealth());
+        return gunslinger;
     }
 }

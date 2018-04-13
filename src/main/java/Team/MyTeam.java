@@ -2,19 +2,17 @@ package Team;
 
 import Util.InputData;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class MyTeam {
 
-    public void CreateTeam(){
+    public void CreateTeam() {
         List<Object> newTeam = new ArrayList<>(3);
         InputData inputData = new InputData();
-        for (int i=0; i<3; i++) {
+        for (int i = 0; i < 3; i++) {
             newTeam.add(inputData.InputData());
         }
-        System.out.println("\nYour team: "+newTeam);
+        System.out.println("\nYour team: " + newTeam);
     }
-
 }

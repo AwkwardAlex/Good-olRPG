@@ -28,10 +28,8 @@ public class Warrior extends Dwarf {
         warrior.setRage(10);
         warrior.setHealth(100);
         warrior.setNameHero("Warrior");
-        warrior.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
-        System.out.println("Your hero is created. His name "+"\nname: "+warrior.getNameHero()+"\nrace: "
-                +warrior.getNameRace()+"\nmana: "+warrior.getMana()+"\nyour health: "+warrior.getHealth());
+        warrior.setMana((getAgility() + getCharisma() + getConcentration() + getIntellect() + getStamina()));
+        System.out.println("Your hero is created. His name " + "\nname: " + warrior.getNameHero() + "\nrace: " + warrior.getNameRace() + "\nmana: " + warrior.getMana() + "\nyour health: " + warrior.getHealth());
         return warrior;
     }
-
 }

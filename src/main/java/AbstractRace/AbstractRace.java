@@ -8,14 +8,23 @@ import lombok.Setter;
 abstract class AbstractRace {
 
     private String nameRace;
+
     private String nameHero;
+
     private int charisma;
+
     private int stamina;
+
     private int intellect;
+
     private int agility;
+
     private int concentration;
+
     private int rage;
+
     private int mana;
+
     private int health;
 
     AbstractRace(String nameRace, String nameHero, int charisma, int stamina, int intellect, int agility, int concentration, int rage, int mana, int health) {
@@ -33,9 +42,6 @@ abstract class AbstractRace {
 
     @Override
     public String toString() {
-        return "AbstractRace{" +
-                "nameRace='" + nameRace + '\'' +
-                ", nameHero='" + nameHero + '\'' +
-                '}';
+        return "AbstractRace{" + "nameRace='" + nameRace + '\'' + ", nameHero='" + nameHero + '\'' + '}';
     }
 }
