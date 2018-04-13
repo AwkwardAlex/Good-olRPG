@@ -30,4 +30,12 @@ abstract class AbstractRace {
         this.mana = mana;
         this.health = health;
     }
+
+    @Override
+    public String toString() {
+        return "AbstractRace{" +
+                "nameRace='" + nameRace + '\'' +
+                ", nameHero='" + nameHero + '\'' +
+                '}';
+    }
 }

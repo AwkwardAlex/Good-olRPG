@@ -7,8 +7,9 @@ import Hero.Elf.Gunslinger;
 public class Elf extends AbstractElf implements AbstractRaceImpl{
 
     @Override
-    public void createHero() {
+    public Elf createHero() {
 
+        return null;
     }
 
     @Override

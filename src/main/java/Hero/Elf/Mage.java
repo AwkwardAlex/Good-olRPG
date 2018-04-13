@@ -23,13 +23,14 @@ public class Mage extends Elf{
     }
 
     @Override
-    public void createHero() {
+    public Mage createHero() {
         Mage mage = new Mage();
         mage.setRage(10);
         mage.setHealth(100);
         mage.setNameHero("mage");
         mage.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
         System.out.println("Your hero is created. His name "+"\nname: "+mage.getNameHero()+"\nrace: "+mage.getNameRace()+"\nmana: "+mage.getMana()+"\nyour health: "+mage.getHealth());
+        return mage;
     }
     
 }
