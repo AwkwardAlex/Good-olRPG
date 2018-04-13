@@ -28,10 +28,8 @@ public class Mechanist extends Dwarf {
         mechanist.setRage(10);
         mechanist.setHealth(100);
         mechanist.setNameHero("Mechanist");
-        mechanist.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
-        System.out.println("Your hero is created. His name "+"\nname: "+mechanist.getNameHero()+"\nrace: "
-                +mechanist.getNameRace()+"\nmana: "+mechanist.getMana()+"\nyour health: "+mechanist.getHealth());
+        mechanist.setMana((getAgility() + getCharisma() + getConcentration() + getIntellect() + getStamina()));
+        System.out.println("Your hero is created. His name " + "\nname: " + mechanist.getNameHero() + "\nrace: " + mechanist.getNameRace() + "\nmana: " + mechanist.getMana() + "\nyour health: " + mechanist.getHealth());
         return mechanist;
     }
-
 }

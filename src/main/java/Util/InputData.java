@@ -14,30 +14,30 @@ public class InputData {
 
     private Scanner scanner = new Scanner(System.in);
 
-    //List<Object> team = new ArrayList<>();
     @Getter
     Object hero;
-    public Object InputData(){
-        switch (scanner.nextInt()){
+
+    public Object InputData() {
+        switch (scanner.nextInt()) {
             case 1:
                 Mechanist mechanist = new Mechanist();
-                hero=mechanist.createHero();
+                hero = mechanist.createHero();
                 break;
             case 2:
                 Warrior warrior = new Warrior();
-                hero=warrior.createHero();
+                hero = warrior.createHero();
                 break;
             case 3:
                 Gunslinger gunslinger = new Gunslinger();
-                hero=gunslinger.createHero();
+                hero = gunslinger.createHero();
                 break;
             case 4:
                 Mage mage = new Mage();
-                hero=mage.createHero();
+                hero = mage.createHero();
                 break;
             case 5:
                 Monk monk = new Monk();
-                hero=monk.createHero();
+                hero = monk.createHero();
                 break;
             case 6:
                 Paladin paladin = new Paladin();
@@ -48,5 +48,4 @@ public class InputData {
         }
         return hero;
     }
-
 }

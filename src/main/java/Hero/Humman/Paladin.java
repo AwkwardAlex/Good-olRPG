@@ -28,11 +28,8 @@ public class Paladin extends Humman {
         paladin.setRage(10);
         paladin.setHealth(100);
         paladin.setNameHero("Paladin");
-        paladin.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
-        System.out.println("Your hero is created. His name "+"\nname: "+paladin.getNameHero()+
-                "\nrace: "+paladin.getNameRace()+"\nmana: "+paladin.getMana()+"\nyour health: "
-                +paladin.getHealth());
-    return paladin;
+        paladin.setMana((getAgility() + getCharisma() + getConcentration() + getIntellect() + getStamina()));
+        System.out.println("Your hero is created. His name " + "\nname: " + paladin.getNameHero() + "\nrace: " + paladin.getNameRace() + "\nmana: " + paladin.getMana() + "\nyour health: " + paladin.getHealth());
+        return paladin;
     }
-
 }

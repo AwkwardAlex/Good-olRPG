@@ -4,7 +4,7 @@ import AbstractRace.AbstractElf;
 import AbstractRace.AbstractRaceImpl;
 import Hero.Elf.Gunslinger;
 
-public class Elf extends AbstractElf implements AbstractRaceImpl{
+public class Elf extends AbstractElf implements AbstractRaceImpl {
 
     @Override
     public Elf createHero() {
@@ -26,5 +26,4 @@ public class Elf extends AbstractElf implements AbstractRaceImpl{
     public void toGo() {
 
     }
-
 }

@@ -5,7 +5,7 @@ import Race.Elf;
 /**
  * Created by Andrii Shulgin on 12.04.2018.
  */
-public class Mage extends Elf{
+public class Mage extends Elf {
 
     @Override
     public void setMana(int mana) {
@@ -28,9 +28,8 @@ public class Mage extends Elf{
         mage.setRage(10);
         mage.setHealth(100);
         mage.setNameHero("mage");
-        mage.setMana((getAgility()+getCharisma()+getConcentration()+getIntellect()+getStamina()));
-        System.out.println("Your hero is created. His name "+"\nname: "+mage.getNameHero()+"\nrace: "+mage.getNameRace()+"\nmana: "+mage.getMana()+"\nyour health: "+mage.getHealth());
+        mage.setMana((getAgility() + getCharisma() + getConcentration() + getIntellect() + getStamina()));
+        System.out.println("Your hero is created. His name " + "\nname: " + mage.getNameHero() + "\nrace: " + mage.getNameRace() + "\nmana: " + mage.getMana() + "\nyour health: " + mage.getHealth());
         return mage;
     }
-    
 }
