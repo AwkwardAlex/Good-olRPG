@@ -1,5 +1,4 @@
-import Team.MyTeam;
-import Util.InputData;
+import team.MyTeam;
 
 public class App {
     public static void main(String[] args) {

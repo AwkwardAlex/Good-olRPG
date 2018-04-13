@@ -1,4 +1,4 @@
-package hero.Elf;
+package hero.elf;
 
 import race.Elf;
 

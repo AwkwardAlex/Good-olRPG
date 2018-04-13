@@ -1,4 +1,4 @@
-package hero.Dwarf;
+package hero.dwarf;
 
 import race.Dwarf;
 

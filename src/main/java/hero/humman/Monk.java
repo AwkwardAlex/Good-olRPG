@@ -1,4 +1,4 @@
-package hero.Humman;
+package hero.humman;
 
 import race.Humman;
 
