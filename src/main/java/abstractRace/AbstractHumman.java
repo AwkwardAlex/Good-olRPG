@@ -1,4 +1,4 @@
-package AbstractRace;
+package abstractRace;
 
 public abstract class AbstractHumman extends AbstractRace {
 

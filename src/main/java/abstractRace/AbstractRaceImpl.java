@@ -1,4 +1,4 @@
-package AbstractRace;
+package abstractRace;
 
 public interface AbstractRaceImpl {
     Object createHero();

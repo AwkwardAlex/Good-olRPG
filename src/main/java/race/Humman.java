@@ -1,15 +1,16 @@
-package Race;
+package race;
 
-import AbstractRace.AbstractDwarf;
-import AbstractRace.AbstractRaceImpl;
-import Hero.Dwarf.Warrior;
+import abstractRace.AbstractHumman;
+import abstractRace.AbstractRaceImpl;
 
 /**
  * Created by Andrii Shulgin on 12.04.2018.
  */
-public class Dwarf extends AbstractDwarf implements AbstractRaceImpl {
+public class Humman extends AbstractHumman implements AbstractRaceImpl {
+
     @Override
-    public Dwarf createHero() {
+    public Humman createHero() {
+
         return null;
     }
 

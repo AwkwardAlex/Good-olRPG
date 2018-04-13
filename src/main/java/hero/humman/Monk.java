@@ -1,6 +1,6 @@
-package Hero.Humman;
+package hero.humman;
 
-import Race.Humman;
+import race.Humman;
 
 /**
  * Created by Andrii Shulgin on 12.04.2018.
