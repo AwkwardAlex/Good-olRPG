@@ -1,7 +1,7 @@
 package race;
 
-import abstractRace.AbstractDwarf;
-import abstractRace.AbstractRaceImpl;
+import race.abstraction.AbstractDwarf;
+import race.abstraction.implement.AbstractRaceImpl;
 
 /**
  * Created by Andrii Shulgin on 12.04.2018.

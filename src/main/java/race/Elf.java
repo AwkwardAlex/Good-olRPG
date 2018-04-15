@@ -1,7 +1,7 @@
 package race;
 
-import abstractRace.AbstractElf;
-import abstractRace.AbstractRaceImpl;
+import race.abstraction.AbstractElf;
+import race.abstraction.implement.AbstractRaceImpl;
 
 public class Elf extends AbstractElf implements AbstractRaceImpl {
 
